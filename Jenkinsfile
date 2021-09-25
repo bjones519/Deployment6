@@ -8,8 +8,8 @@ pipeline{
     sh '''
     npm install
     npm run build
-    sudo npm install -g 
-    serve serve -s build &
+    sudo npm install -g serve 
+    serve -s build &
    '''
     } 
   }
