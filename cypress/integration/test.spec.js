@@ -24,7 +24,7 @@ describe('Testing character input',() => { //name of our test
 
         cy.get('span')
         .invoke('text')
-        .should('equal','11')
+        .should('equal','10')
 
         
     });
