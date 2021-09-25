@@ -6,7 +6,6 @@ pipeline{
     steps {
     sh 'rm -rf ./kura_test_repo/cypress2' 
     sh '''
-    sudo npm install
    '''
     } 
   }
